@@ -1,0 +1,30 @@
+{
+  "name": "imobiliaria",
+  "version": "1.0.0",
+  "description": "Trabalho Acadêmico da disciplina HOW VII do curso de Análise e desenvolvimento de sistemas da Univali ",
+  "homepage": "https://github.com/AS-Gaspar/webserver_imobiliaria#readme",
+  "bugs": {
+    "url": "https://github.com/AS-Gaspar/webserver_imobiliaria/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AS-Gaspar/webserver_imobiliaria.git"
+  },
+  "license": "ISC",
+  "author": "Alexandre Silvetri e Gabriel Horstmann",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "knex": "^3.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
